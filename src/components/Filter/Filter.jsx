@@ -1,8 +1,9 @@
 import React from 'react'
+import { Label } from './styled'
 
 const Filter = ({func}) => {
   return (
-    <label>
+    <Label>
         Filter: 
     <select onChange={({target}) => func(target.value)}>
         <option value="all">all</option>
@@ -13,7 +14,7 @@ const Filter = ({func}) => {
         <option value="proprietor">proprietor</option>
         <option value="contract">contract</option>
     </select>
-    </label>
+    </Label>
   )
 }
 

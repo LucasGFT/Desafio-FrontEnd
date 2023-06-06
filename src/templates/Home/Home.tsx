@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { listBreweries } from '../../api/listBreweries'
 import { typesApi } from '../../types/typesApi'
-import { ContainerHome, DivPages } from './style'
+import { ContainerHome, DivPages } from './styled'
 import ListaTodas from '../../components/ListaTodas/ListaTodas'
 import Filter from '../../components/Filter/Filter'
 

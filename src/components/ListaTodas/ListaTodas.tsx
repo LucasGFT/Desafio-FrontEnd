@@ -1,5 +1,5 @@
 import React from 'react'
-import { Elemento, Lista, Type } from './style'
+import { Elemento, Lista, Type } from './styled'
 import { Link } from 'react-router-dom'
 import { typesApi } from '../../types/typesApi'
 

@@ -4,7 +4,7 @@ import { breweries } from '../../api/listBreweries'
 import { typesApi } from '../../types/typesApi';
 import Carregamento from '../../components/Carregamento/Carregamento';
 import { LeftOutlined } from '@ant-design/icons';
-import { BreweryContainer, InfoBrewery } from './style';
+import { BreweryContainer, InfoBrewery } from './styled';
 
 const Brewery = () => {
     const { id } = useParams<{ id: string }>();
