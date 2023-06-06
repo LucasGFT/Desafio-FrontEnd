@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Projeto de Teste do Front-end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto que criei para testar minhas habilidades de front-end, baseado em um desafio técnico antigo. O objetivo principal era implementar um layout responsivo e interativo, utilizando React, TypeScript, HTML, CSS e JavaScript.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Responsividade**: O projeto foi desenvolvido com foco na adaptabilidade a diferentes dispositivos e tamanhos de tela. Utilizei media queries e técnicas de design responsivo para garantir uma boa experiência de usuário em desktops, tablets e smartphones.
 
-### `npm start`
+- **Interatividade**: Adicionei recursos interativos para tornar o projeto mais dinâmico e engajante. Utilizei JavaScript e TypeScript para manipulação do DOM, animações e interações com o usuário.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Integração com API**: Realizei integração com uma API externa para obter e exibir dados dinâmicos. Utilizei requisições HTTP para se comunicar com a API e exibir os resultados em tempo real.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Como executar o projeto
 
-### `npm test`
+1. Faça o download ou clone o repositório do projeto.
+2. Abra o terminal e navegue até o diretório raiz do projeto.
+3. Execute o comando `npm install` para instalar as dependências.
+4. Execute o comando `npm start` para iniciar o servidor de desenvolvimento.
+5. Abra o navegador e acesse `http://localhost:3000` para visualizar o projeto em execução.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estrutura do projeto
 
-### `npm run build`
+O projeto possui a seguinte estrutura de diretórios e arquivos:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```shell
+├── src
+│ ├── api
+│ │ └── ...
+│ ├── components
+│ │ └── ...
+│ ├── routes
+│ │ └── ...
+│ ├── templates
+│ │ └── ...
+│ ├── types
+│ │ └── ...
+├── public
+│ ├── index.html
+│ └── ...
+├── ...
+└── ...
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A pasta `src` contém os arquivos-fonte do projeto.
+- Dentro da pasta `src`, a pasta `components` contém as pastas de todos components do Projeto.
+- A pasta `api` contém o arquivo `listBreweries.ts`, responsável por fazer o fetch na api.
+- A pasta `templates` contém os arquivo de cada página.
+- A pasta `routes` contém o arquivo com todas as rotas do projeto.
+- A pasta `types` contém os types do TypeScript.
+- A pasta `public` contém o arquivo `index.html` e outros arquivos estáticos necessários para a construção do projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Considerações Finais
 
-### `npm run eject`
+Este projeto de teste do front-end utilizando React e TypeScript foi uma ótima oportunidade para aplicar meus conhecimentos em desenvolvimento web e explorar as principais tecnologias utilizadas nessa área. Espero que essa pequena demonstração evidencie minhas habilidades e criatividade como desenvolvedor front-end.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Caso tenha alguma dúvida ou feedback, não hesite em entrar
